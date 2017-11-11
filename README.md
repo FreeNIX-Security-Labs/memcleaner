@@ -39,10 +39,27 @@ This is the means of drop_caches's values:
 
 3: it cleans pagecache, dentries and inodes
 
+## Tested on:
+Debian Wheezy
+Debian Jessie
+Debian Stretch
+OpenWrt ATTITUDE ADJUSTMENT 12.09, r36088
+
+## Dependences for Debian Wheezy/Jessie/Stretch
+```
+# apt-get install git git-core
+```
+
+## Dependences for OpenWrt ATTITUDE ADJUSTMENT 12.09, r36088
+```
+# opkg install bash git
+```
+
+
 ## Installation
 To install memcleaner, type these commands:
 ```
-$ git clone https://github.com/FreeNIX-Security-Labs/memcleaner/
+$ git clone git://github.com/FreeNIX-Security-Labs/memcleaner/
 $ cd memcleaner
 $ chmod 755 install.sh
 # ./install.sh
